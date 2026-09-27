@@ -19,7 +19,14 @@ nav{min-height:78px;display:flex;align-items:center;gap:28px}.logo img{width:225
 section{padding:68px 0}.dark{background:var(--navy);color:white}.title{text-align:center;margin-bottom:35px}.title h2{font:700 46px Georgia,serif;color:var(--navy);margin:5px}.dark .title h2{color:white}.eyebrow{color:#c79427;letter-spacing:.15em;font-weight:900;font-size:12px}
 .tours{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;background:var(--navy)}
 .tour{min-height:650px;background:#071a2e;color:white;border:1px solid #d5a638;display:flex;flex-direction:column}
-.tour img{width:100%;height:235px;object-fit:cover}.tour-body{padding:20px;display:flex;flex-direction:column;flex:1}
+.tour .tour-images{display:grid;grid-template-columns:repeat(2,1fr);gap:3px}
+.tour .tour-images figure{position:relative;margin:0;min-width:0}
+.tour .tour-images img{width:100%;height:235px;object-fit:cover;display:block}
+.tour .tour-images figcaption{position:absolute;left:0;right:0;bottom:0;padding:8px 5px;background:rgba(3,20,38,.86);color:#fff;text-align:center;font-size:11px;font-weight:900;letter-spacing:.02em}
+.tour .tour-images.three{grid-template-columns:repeat(3,1fr)}
+.tour .tour-images.four{grid-template-columns:repeat(2,1fr)}
+.tour .tour-images.three img{height:235px}
+.tour .tour-images.four img{height:116px}.tour-body{padding:20px;display:flex;flex-direction:column;flex:1}
 .tour h3{font:700 25px Georgia,serif;margin:0 0 6px}.tour .sub{color:var(--gold);font-weight:900;font-size:18px}.tour ul{padding-left:20px;line-height:1.75;font-size:14px;flex:1}.price{font-size:29px;color:var(--gold);font-weight:900}.price small{font-size:13px;color:white}
 .btn{display:block;text-align:center;background:var(--gold);color:#071827;padding:14px 15px;border-radius:13px;font-weight:900;margin-top:13px}
 .map-preview{background:#09223c;padding:30px;color:white;display:grid;grid-template-columns:2fr 1fr;gap:25px;align-items:center}.map-preview iframe{width:100%;height:330px;border:0;border-radius:16px}.map-preview h2{font:700 36px Georgia,serif;color:var(--gold)}
@@ -60,7 +67,10 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 <section style="padding:0">
 <div class="tours">
 <article class="tour">
-<img loading="lazy" src="1000336641.jpg" alt="Bethesda Terrace &amp; Fountain">
+<div class="tour-images">
+<figure><img loading="lazy" src="https://mommypoppins.com/sites/default/files/66/wollman_rink_full_rink_dusk_1.jpg?fit=crop&amp;height=420&amp;width=620" alt="Wollman Rink"><figcaption>Wollman Rink</figcaption></figure>
+<figure><img loading="lazy" src="https://i.etsystatic.com/7450813/r/il/f20b3a/4575859043/il_1080xN.4575859043_79n8.jpg" alt="Balto Statue"><figcaption>Balto Statue</figcaption></figure>
+</div>
 <div class="tour-body">
 <h3>1/3 CENTRAL PARK</h3>
 <div class="sub">Highlights Tour</div>
@@ -78,7 +88,11 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 </div>
 </article>
 <article class="tour">
-<img loading="lazy" src="1000316598.jpg" alt="Bow Bridge &amp; Strawberry Fields">
+<div class="tour-images three">
+<figure><img loading="lazy" src="https://d2wsrtli9cxkek.cloudfront.net/media/images/Mall_LiteraryWalk_20200405_IMG_4669_RT.jpg?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=630&amp;q=82&amp;w=1200" alt="The Mall and Literary Walk"><figcaption>The Mall (Literary Walk)</figcaption></figure>
+<figure><img loading="lazy" src="https://cdn.getyourguide.com/image/%7Boptions%7D/tour_img/55e464d97bf64.png" alt="Imagine Mosaic at Strawberry Fields"><figcaption>Imagine Mosaic</figcaption></figure>
+<figure><img loading="lazy" src="https://cdn.getyourguide.com/image/format%3Dauto%2Cfit%3Dcrop%2Cgravity%3Dcenter%2Cquality%3D60%2Cwidth%3D400%2Cheight%3D265%2Cdpr%3D2/tour_img/5ef30bd1f869d4f88257d20bac944a67eb762586d4c444effa3208178ad72ec2.png" alt="Cherry Hill Fountain"><figcaption>Cherry Hill Fountain</figcaption></figure>
+</div>
 <div class="tour-body">
 <h3>HALF CENTRAL PARK</h3>
 <div class="sub">Classic Tour</div>
@@ -96,7 +110,11 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 </div>
 </article>
 <article class="tour">
-<img loading="lazy" src="1000425450.jpg" alt="Belvedere Castle &amp; Reservoir">
+<div class="tour-images three">
+<figure><img loading="lazy" src="https://www.centralpark.com/downloads/4371/download/reservoir.jpe?cb=cd4f9a3718f007ca5ec676c4f42a7da1" alt="Jacqueline Kennedy Onassis Reservoir"><figcaption>Jacqueline Kennedy Onassis Reservoir</figcaption></figure>
+<figure><img loading="lazy" src="https://c1.staticflickr.com/3/2147/2408275288_fd131cd9ac_b.jpg" alt="Cleopatra's Needle, the Obelisk"><figcaption>Cleopatra's Needle (Obelisk)</figcaption></figure>
+<figure><img loading="lazy" src="https://imgcap.capturetheatlas.com/wp-content/uploads/2022/06/alice-in-wonderland-things-to-do-central-park.jpg" alt="Alice in Wonderland"><figcaption>Alice in Wonderland</figcaption></figure>
+</div>
 <div class="tour-body">
 <h3>ENTIRE CENTRAL PARK</h3>
 <div class="sub">Complete Tour</div>
@@ -107,6 +125,7 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 <li>Turtle Pond &amp; Great Lawn</li>
 <li>Jacqueline Kennedy Onassis Reservoir</li>
 <li>Cleopatra&#x27;s Needle (Obelisk)</li>
+<li>Alice in Wonderland</li>
 </ul>
 <div class="price">$80 <small>per person</small>
 </div>
@@ -114,7 +133,12 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 </div>
 </article>
 <article class="tour">
-<img loading="lazy" src="1000259083.jpg" alt="Full Park + Pickup &amp; Drop-off">
+<div class="tour-images four">
+<figure><img loading="lazy" src="https://www.untappedcities.com/content/images/size/w1200/2024/03/CEntral-Park.jpg" alt="Belvedere Castle"><figcaption>Belvedere Castle</figcaption></figure>
+<figure><img loading="lazy" src="https://patch.com/img/cdn20/users/26838112/20240515/032946/styles/raw/public/processed_images/HarlemMeer_20200709_IMG_9623_RT.jpg" alt="Harlem Meer"><figcaption>Harlem Meer</figcaption></figure>
+<figure><img loading="lazy" src="https://s3.amazonaws.com/assets.centralparknyc.org/images/backgrounds/mobile/CPC_BackgroundImage_Magazine_Mobile1_01222021.jpg" alt="Gapstow Bridge"><figcaption>Gapstow Bridge</figcaption></figure>
+<figure><img loading="lazy" src="https://images.squarespace-cdn.com/content/5ec1a156dc6caa06d370d95e/1595457079250-3CGYS14MERBT5BPLNHSE/Places%2BWithout%2BFaces%2B-%2BBow%2BBridge%2B1%2C%2BNYC%2B5.19.2020%2B8x12%2B-%2Bphoto%2Bby%2BAndrew%2BWerner.jpg?content-type=image%2Fjpeg&amp;format=1500w" alt="Bow Bridge"><figcaption>Bow Bridge</figcaption></figure>
+</div>
 <div class="tour-body">
 <h3>VIP CENTRAL PARK</h3>
 <div class="sub">Premium Tour</div>
@@ -125,6 +149,10 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 <li>Personalized route and experience</li>
 <li>Great for families &amp; couples</li>
 <li>Relaxed private experience</li>
+<li>Belvedere Castle</li>
+<li>Harlem Meer</li>
+<li>Gapstow Bridge</li>
+<li>Bow Bridge</li>
 </ul>
 <div class="price">$100 <small>per person</small>
 </div>
@@ -132,7 +160,10 @@ footer{background:#031321;color:#dce4e9;padding:40px 0}.footer{display:flex;just
 </div>
 </article>
 <article class="tour">
-<img loading="lazy" src="1000247759.jpg" alt="Times Square &amp; Midtown">
+<div class="tour-images">
+<figure><img loading="lazy" src="1000247759.jpg" alt="Times Square"><figcaption>Times Square</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Rockefeller Center and Midtown Manhattan"><figcaption>Rockefeller Center</figcaption></figure>
+</div>
 <div class="tour-body">
 <h3>MIDTOWN MANHATTAN</h3>
 <div class="sub">City Lights Tour</div>
