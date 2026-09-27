@@ -20,7 +20,20 @@ nav{min-height:78px;display:flex;align-items:center;gap:25px}.logo img{width:225
 footer{background:#031321;color:#dce4e9;padding:38px 0}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 @media(max-width:950px){.links a:not(.book){display:none}.about-grid{grid-template-columns:1fr}.main-photo{height:480px}.grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.wrap{padding:0 15px}.logo img{width:170px}.facts,.grid{grid-template-columns:1fr}.main-photo{height:390px}.grid img{height:280px}}
-</style></head><body>
+</style>
+<style>
+/* About-page polish: compact mobile layout */
+@media (max-width: 700px){
+  .hero, .about-hero { padding-top: 58px !important; padding-bottom: 58px !important; }
+  .hero h1, .about-hero h1 { font-size: clamp(42px, 13vw, 62px) !important; line-height: .98 !important; }
+  main, .section, .about-section { padding-top: 42px !important; padding-bottom: 42px !important; }
+  h1 { line-height: 1.02; }
+  h2 { font-size: clamp(36px, 10vw, 50px) !important; line-height: 1.05 !important; }
+  p { line-height: 1.55 !important; }
+}
+</style>
+
+</head><body>
 <header><div class="wrap"><nav><a class="logo" href="index.html"><img src="./logo.svg" alt="New York Pedicab Experience"></a>
 <div class="links"><a href="index.html">Home</a><a href="tours.html">Tours</a><a href="map.html">Central Park Map</a><a href="about.html">About Makan</a><a href="drivers.html">Our Drivers</a><a href="reviews.html">Reviews</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a class="book" href="tours.html">Book Your Ride</a></div></nav></div></header>
 <section class="hero"><div class="wrap"><h1>Meet Makan</h1><p>Your local pedicab guide for Central Park and Manhattan.</p></div></section>
@@ -36,4 +49,30 @@ footer{background:#031321;color:#dce4e9;padding:38px 0}.footer{display:flex;just
 <img src="1000425450.jpg" alt="New York pedicab tour moment"><img src="1000336641.jpg" alt="Central Park pedicab guests"><img src="1000316598.jpg" alt="Guests enjoying a pedicab tour">
 </div></div></section>
 <footer><div class="wrap footer"><div><strong>NEW YORK PEDICAB EXPERIENCE BY MAKAN</strong><br>Premium private tours of Central Park & Manhattan</div><div>Call/Text: (347) 856-2842<br>Email: interlaye@gmail.com<br>© 2026 New York Pedicab Experience</div></div></footer>
+
+<section style="max-width:1100px;margin:0 auto;padding:24px 24px 48px;">
+  <div style="background:#fff;border:1px solid #e4d6b8;border-radius:24px;padding:28px;">
+    <div style="color:#a97813;font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:14px;">Why Ride With Makan?</div>
+    <h2 style="color:#071d33;margin:10px 0 14px;font-size:34px;">A personal New York experience</h2>
+    <p style="color:#263442;margin:0;line-height:1.65;">Your tour is private, relaxed and built around enjoying the city—not rushing through it. Makan combines local knowledge, stories, photo stops and personal service to help guests experience Central Park and Manhattan in a memorable way.</p>
+  </div>
+</section>
+
+<section style="max-width:1100px;margin:0 auto;padding:0 24px 48px;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;">
+    <img src="1000425450.jpg" alt="New York pedicab tour moment" style="width:100%;height:260px;object-fit:cover;border-radius:22px;">
+    <img src="1000336641.jpg" alt="Central Park pedicab guest experience" style="width:100%;height:260px;object-fit:cover;border-radius:22px;">
+    <img src="1000316598.jpg" alt="Private New York pedicab tour" style="width:100%;height:260px;object-fit:cover;border-radius:22px;">
+  </div>
+</section>
+
+<section style="max-width:1100px;margin:0 auto;padding:0 24px 64px;text-align:center;">
+  <h2 style="color:#071d33;margin:0 0 10px;font-size:38px;">Ready to explore New York?</h2>
+  <p style="color:#53606c;margin:0 0 24px;">Choose your Central Park or Manhattan experience.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="tours.html" style="display:inline-block;background:#071d33;color:white;text-decoration:none;font-weight:800;padding:15px 24px;border-radius:12px;">VIEW TOURS</a>
+    <a href="tours.html" style="display:inline-block;background:#ffc54d;color:#071d33;text-decoration:none;font-weight:800;padding:15px 24px;border-radius:12px;">BOOK YOUR RIDE</a>
+  </div>
+</section>
+
 </body></html>
