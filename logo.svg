@@ -1,27 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
-  <rect width="1200" height="600" rx="44" fill="#FAF6ED"/>
-  <g transform="translate(68 68)">
-    <circle cx="230" cy="230" r="212" fill="#0A2038"/>
-    <circle cx="230" cy="230" r="190" fill="none" stroke="#D5A638" stroke-width="5"/>
-    <circle cx="149" cy="327" r="48" fill="none" stroke="#D5A638" stroke-width="11"/>
-    <circle cx="334" cy="327" r="48" fill="none" stroke="#D5A638" stroke-width="11"/>
-    <path d="M149 327h80l44-68 61 68" fill="none" stroke="#FAF6ED" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M101 246V143h135v103M89 143c17-42 45-63 79-63s62 21 79 63Z" fill="#133451" stroke="#D5A638" stroke-width="8" stroke-linejoin="round"/>
-    <path d="M92 246h145l17 36H75Z" fill="#133451" stroke="#FAF6ED" stroke-width="8" stroke-linejoin="round"/>
-    <circle cx="143" cy="183" r="19" fill="#FAF6ED"/>
-    <circle cx="196" cy="183" r="19" fill="#FAF6ED"/>
-    <path d="M124 235c2-31 8-44 19-44s18 13 20 44M177 235c2-31 8-44 19-44s18 13 20 44" fill="none" stroke="#FAF6ED" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="288" cy="211" r="18" fill="#FAF6ED"/>
-    <path d="M288 230l-26 38M288 230l25 35M261 268l-22 47M311 264l26 17" fill="none" stroke="#FAF6ED" stroke-width="8" stroke-linecap="round"/>
-    <path d="M350 112c32-35 63-19 61-57-40-1-70 16-61 57Z" fill="#3A7B55"/>
-    <path d="M349 113c17-22 35-38 58-54" fill="none" stroke="#FAF6ED" stroke-width="4" stroke-linecap="round"/>
-  </g>
-  <g transform="translate(548 115)">
-    <text x="0" y="62" fill="#0A2038" font-family="Georgia, serif" font-size="65" font-weight="700">NEW YORK</text>
-    <text x="0" y="141" fill="#0A2038" font-family="Georgia, serif" font-size="65" font-weight="700">PEDICAB</text>
-    <text x="0" y="209" fill="#D09F2F" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="8">EXPERIENCE</text>
-    <path d="M0 247h560" stroke="#D09F2F" stroke-width="4"/>
-    <text x="0" y="307" fill="#3A7B55" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6">BY MAKAN</text>
-    <text x="0" y="374" fill="#45596E" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="2">PREMIUM PRIVATE TOURS</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" role="img" aria-label="New York Pedicab Experience">
+  <rect width="420" height="120" rx="16" fill="#fbf5e9"/>
+  <circle cx="56" cy="60" r="38" fill="#06192d" stroke="#ffc84d" stroke-width="5"/>
+  <path d="M31 69h48l-7-25H45zM38 69a13 13 0 1 0 0 1zm38 0a13 13 0 1 0 0 1z" fill="none" stroke="#ffc84d" stroke-width="5" stroke-linejoin="round"/>
+  <text x="108" y="52" font-family="Georgia,serif" font-size="25" font-weight="700" fill="#06192d">NEW YORK PEDICAB</text>
+  <text x="108" y="81" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#b07b16">EXPERIENCE BY MAKAN</text>
 </svg>
